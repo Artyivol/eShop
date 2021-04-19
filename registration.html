@@ -2,23 +2,26 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Shop</title>
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/style.css">
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
-    <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
-        rel="stylesheet"> -->
-    <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet"> -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
-        rel="stylesheet">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Registration</title>
+        <link rel="stylesheet" href="./css/reset.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com"> -->
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400&display=swap"
+            rel="stylesheet"> -->
+        <!-- <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet"> -->
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap"
+            rel="stylesheet">
+    </head>
 </head>
 
 <body>
@@ -32,7 +35,7 @@
                 <button class="header__button" type="button">
                     <img src="./img/burger-icon.svg" alt="burger" width="32" height="23">
                 </button>
-                <a href="registration.html" class="header__link">
+                <a href="#" class="header__link">
                     <img src="./img/person.svg" alt="person" width="32" height="23">
                 </a>
                 <a href="#" class="header__link">
@@ -74,130 +77,47 @@
             </div>
         </div>
     </header>
-    <main>
-        <section class="promo">
-            <img class="promo__img" src="./img/man.jpg" alt="man" width="800" height="765">
-            <div class="promo__heading-wrapper">
-                <h1 class="promo__heading">The brand <span class="promo__sub-heading">of luxerious <span
-                            class="promo__sub-heading-pink">fashion</span></span></h1>
-            </div>
-        </section>
-        <section class="categories container">
-            <h2 class="visually-hidden">Categories</h2>
-            <ul class="categories__list">
-                <li class="categories__item categories__item--woman">
-                    <p class="categories__text">30% off</p>
-                    <h3 class="categories__heading">for women</h3>
+    <div class="top__rigistration">
+        <h3 class="top__rigistration-title">registration</h3>
+    </div>
+    <section>
+        <form action="#">
+            <fieldset>
+                <legend>Your Name</legend>
+                <input type="text">
+                <input type="text">
+                <input type="radio" name="Male" id="Male">
+                <label for="Male">Male</label>
+                <input type="radio" name="Female" id="Female">
+                <label for="Female">Female</label>
+                <legend>Login details</legend>
+                <input type="text">
+                <input type="text">
+                <p>Please use 8 or more characters, with at least 1 number and a mixture of uppercase and lowercase
+                    letters</p>
+            </fieldset>
+            <button>join now</button>
+
+        </form>
+        <div class="benefits">
+            <h3 class="benefits__title">LOYALTY HAS ITS PERKS</h3>
+            <p class="benefits__text">Get in on the loyalty program where you can earn points and unlock serious perks.
+                Starting with these as
+                soon as you join:</p>
+            <ul class="benefits__list">
+                <li class="benefits__list-item">15% off welcome offer
                 </li>
-                <li class="categories__item categories__item--man">
-                    <p class="categories__text">hot deal</p>
-                    <h3 class="categories__heading">for men</h3>
+                <li class="benefits__list-item">Free shipping, returns and exchanges on all orders
+
                 </li>
-                <li class="categories__item categories__item--kids">
-                    <p class="categories__text">new arrivals</p>
-                    <h3 class="categories__heading">for kids</h3>
+                <li class="benefits__list-item">$10 off a purchase on your birthday
+
                 </li>
-                <li class="categories__item categories__item--accessories">
-                    <p class="categories__text">luxirous & trendy</p>
-                    <h3 class="categories__heading">accesories</h3>
-                </li>
+                <li class="benefits__list-item">Early access to products</li>
+                <li class="benefits__list-item">Exclusive offers & rewards</li>
             </ul>
-        </section>
-        <section class="products">
-            <h2 class="products__heading">Fetured Items</h2>
-            <p class="products__text">Shop for items based on what we featured in this week</p>
-            <ul class="products__list">
-                <li class="products__item">
-                    <img class="products__item-img" src="./img/product-1.jpg" alt="product-1" width="360" height="420">
-                    <h3 class="products__item-heading">ellery x m'o capsule</h3>
-                    <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="products__item-price">$52.00</p>
-                    <button class="visually-hidden" type="button">Add to Cart</button>
-                </li>
-                <li class="products__item">
-                    <img src="./img/product-2.png" alt="product-2" width="360" height="420">
-                    <h3 class="products__item-heading">ellery x m'o capsule</h3>
-                    <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="products__item-price">$52.00</p>
-                    <button class="visually-hidden" type="button">Add to Cart</button>
-                </li>
-                <li class="products__item">
-                    <img src="./img/product-3.jpg" alt="product-3" width="360" height="420">
-                    <h3 class="products__item-heading">ellery x m'o capsule</h3>
-                    <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="products__item-price">$52.00</p>
-                    <button class="visually-hidden" type="button">Add to Cart</button>
-                </li>
-                <li class="products__item">
-                    <img src="./img/product-4.jpg" alt="product-4" width="360" height="420">
-                    <h3 class="products__item-heading">ellery x m'o capsule</h3>
-                    <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="products__item-price">$52.00</p>
-                    <button class="visually-hidden" type="button">Add to Cart</button>
-                </li>
-                <li class="products__item">
-                    <img src="./img/product-5.jpg" alt="product-5" width="360" height="420">
-                    <h3 class="products__item-heading">ellery x m'o capsule</h3>
-                    <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="products__item-price">$52.00</p>
-                    <button class="visually-hidden" type="button">Add to Cart</button>
-                </li>
-                <li class="products__item">
-                    <img src="./img/product-6.jpg" alt="product-6" width="360" height="420">
-                    <h3 class="products__item-heading">ellery x m'o capsule</h3>
-                    <p class="products__item-text">Known for her sculptural takes on traditional tailoring, Australian
-                        arbiter of cool Kym Ellery
-                        teams up with Moda Operandi.</p>
-                    <p class="products__item-price">$52.00</p>
-                    <button class="visually-hidden" type="button">Add to Cart</button>
-                </li>
-            </ul>
-            <div class="products__button-flex">
-                <button class="products__button" type="button">Browse All Product</button>
-            </div>
-        </section>
-        <section class="advantages">
-            <ul class="advantages__list">
-                <li class="advantages__list-element">
-                    <div class="advantages__list-item">
-                        <img src="./img/delivery.svg" alt="delivery" width="45" height="32">
-                        <h3 class="advantages__list-title">Free Delivery</h3>
-                        <p class="advantages__list-text">Worldwide delivery on all. Authorit tively morph
-                            next-generation innov tion with extensive
-                            models.</p>
-                    </div>
-                </li>
-                <li class="advantages__list-element">
-                    <div class="advantages__list-item">
-                        <img src="./img/sales.svg" alt="sales" width="40" height="40">
-                        <h3 class="advantages__list-title">Sales & discounts</h3>
-                        <p class="advantages__list-text">Worldwide delivery on all. Authorit tively morph
-                            next-generation innov tion with extensive
-                            models.</p>
-                    </div>
-                </li>
-                <li class="advantages__list-element">
-                    <div class="advantages__list-item">
-                        <img src="./img/quality.svg" alt="quality" width="47" height="35">
-                        <h3 class="advantages__list-title">Quality assurance</h3>
-                        <p class="advantages__list-text">Worldwide delivery on all. Authorit tively morph
-                            next-generation innov tion with extensive
-                            models.</p>
-                    </div>
-                </li>
-            </ul>
-        </section>
-    </main>
+        </div>
+    </section>
     <footer class="footer">
         <div class="footer__intersect-top">
             <div class="footer__intersect">
