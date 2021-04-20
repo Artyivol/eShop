@@ -1,0 +1,102 @@
+.footer__intersect-top {
+    background-image: url(../img/footer-background.jpg);
+    display: flex;
+    min-height: 448px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer__intersect {
+    width: 360px;
+    text-align: center;
+}
+
+.footer__intersect-img {
+    padding: 0 0 30px 0;
+}
+
+.footer__intersect-text {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+}
+
+.footer__aside {
+    display: flex;
+    justify-content: space-around;
+    background: #222224;
+    height: 79px;
+    align-items: center;
+}
+
+.footer__aside-copy {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #fbfbfb;
+}
+
+.socials__icon {
+    background-color: white;
+    width: 32px;
+    height: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 7px 0 0;
+    fill: black;
+}
+
+.socials__icon-link :hover {
+    background-color: $dark-pink;
+    fill: white;
+}
+
+.footer__form {
+    text-align: center;
+}
+
+.footer__form-title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 167.2%;
+}
+
+.footer__form-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167.2%;
+}
+
+.footer__form-sub {
+    display: flex;
+    justify-content: center;
+    margin: 32px 0 0 0;
+}
+
+.footer__form-email {
+    border-bottom-left-radius: 25px;
+    border-top-left-radius: 25px;
+    border-style: none;
+    width: 256px;
+    height: 49px;
+    background-color: #e1e1e1;
+}
+
+.footer__form-button {
+    border-bottom-right-radius: 25px;
+    border-top-right-radius: 25px;
+    border-style: none;
+    width: 100px;
+    height: 49px;
+    background-color: $dark-pink;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}

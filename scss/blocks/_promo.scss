@@ -1,0 +1,40 @@
+.promo {
+    display: flex;
+    margin: 0 0 63px;
+}
+
+.promo__img {
+    background-color: $pink;
+}
+
+.promo__heading-wrapper {
+    background-color: $pink;
+    flex-grow: 1;
+    align-items: center;
+    display: flex;
+    padding: 0 0 0 92px;
+    position: relative;
+}
+
+.promo__heading-wrapper::before {
+    content: "";
+    width: 12px;
+    height: 92px;
+    background-color: $dark-pink;
+    position: absolute;
+    left: 64px;
+}
+
+.promo__heading {
+    @include font(48px, 58px, 900);
+    text-transform: uppercase;
+}
+
+.promo__sub-heading {
+    @include font(32px, 38px, 700);
+    display: block;
+}
+
+.promo__sub-heading-pink {
+    color: $dark-pink;
+}
