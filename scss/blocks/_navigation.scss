@@ -1,0 +1,28 @@
+.navigation-item__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 35px;
+    color: $dark-pink;
+    margin: 0 0 0 34px;
+}
+
+.navigation-item__link:hover {
+    font-weight: 700;
+}
+
+.navigation-item__sub-list-categories {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 30px;
+    color: #6f6e6e;
+    margin: 0 0 0 55px;
+}
+
+.navigation-item__sub-list-categories:hover {
+    color: $dark-pink;
+}

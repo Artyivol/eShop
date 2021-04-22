@@ -1,0 +1,18 @@
+.top__rigistration {
+    width: 100%;
+    min-height: 148px;
+    background-color: #f8f3f4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.top__rigistration-title {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    text-transform: uppercase;
+    color: $dark-pink;
+    margin: 0 0 0 230px;
+}
