@@ -1,6 +1,7 @@
 @import "./variables";
 @import "./reset";
 @import "./general.scss";
+@import "./mixin";
 @import "./blocks/header";
 @import "./blocks/navigation";
 @import "./blocks/promo";
@@ -11,3 +12,4 @@
 @import "./blocks/top-registration";
 @import "./blocks/registration";
 @import "./blocks/benefits";
+@import "./blocks/cart";

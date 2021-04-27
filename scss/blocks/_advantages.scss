@@ -9,16 +9,20 @@
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .advantages__list {
+        flex-direction: column;
+        height: 610px;
+    }
+}
+
 .advantages__list-element {
     width: 360px;
     text-align: center;
 }
 
 .advantages__list-title {
-    font-style: normal;
-    font-weight: 400;
-    font-size: 19.96px;
-    line-height: 24px;
+    @include font(20px, 24px);
     color: #fbfbfb;
     padding: 28px 0 16px 0;
 }

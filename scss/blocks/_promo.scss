@@ -3,8 +3,28 @@
     margin: 0 0 63px;
 }
 
+@media (max-width: 768px) {
+    .promo {
+        margin: 0 0 20px;
+    }
+}
+
+@media (max-width: 500px) {
+    .promo {
+        margin: 0 0 64px;
+    }
+}
+
 .promo__img {
     background-color: $pink;
+    width: 50%;
+    height: auto;
+}
+
+@media (max-width: 500px) {
+    .promo__img {
+        display: none;
+    }
 }
 
 .promo__heading-wrapper {
@@ -12,27 +32,93 @@
     flex-grow: 1;
     align-items: center;
     display: flex;
-    padding: 0 0 0 92px;
+    padding: 0 0 0 8%;
     position: relative;
 }
 
-.promo__heading-wrapper::before {
+@media (max-width: 500px) {
+    .promo__heading-wrapper {
+        height: 363px;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+// @media (max-width: 768px) {
+//     .promo__heading-wrapper {
+//         padding: 0 0 0 67px;
+//     }
+// }
+
+.promo__heading {
+    // @include font(48px, 58px, 900);
+    text-transform: uppercase;
+    font-size: 48px;
+    line-height: 58px;
+    font-weight: 900;
+    font-style: normal;
+    position: relative;
+}
+
+.promo__heading::before {
     content: "";
     width: 12px;
     height: 92px;
     background-color: $dark-pink;
     position: absolute;
-    left: 64px;
+    left: -10%;
 }
 
-.promo__heading {
-    @include font(48px, 58px, 900);
-    text-transform: uppercase;
+@media (max-width: 768px) {
+    .promo__heading {
+        font-size: 37px;
+        line-height: 44px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 500px) {
+    .promo__heading {
+        font-weight: 900;
+        font-size: 38px;
+        line-height: 46px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 500px) {
+    .promo__heading::before {
+        width: 12px;
+        height: 61px;
+        left: -25px;
+        top: 3px;
+    }
 }
 
 .promo__sub-heading {
-    @include font(32px, 38px, 700);
+    // @include font(32px, 38px, 700);
     display: block;
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 700;
+    font-style: normal;
+}
+
+@media (max-width: 768px) {
+    .promo__sub-heading {
+        font-size: 24px;
+        line-height: 28px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width: 500px) {
+    .promo__sub-heading {
+        font-weight: 700;
+        font-size: 20px;
+        line-height: 24px;
+    }
 }
 
 .promo__sub-heading-pink {

@@ -16,3 +16,15 @@
     color: $dark-pink;
     margin: 0 0 0 230px;
 }
+
+@media (max-width: 768px) {
+    .top__rigistration-title {
+        margin: 0 0 0 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .top__rigistration-title {
+        text-align: center;
+    }
+}
