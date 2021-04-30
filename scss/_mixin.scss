@@ -4,3 +4,13 @@
     $font-weight: $font-weight;
     $font-style: $font-style;
 }
+
+@mixin flex($display: flex, $justify-content: space-between, $align-items: center) {
+    $display: $display;
+    $justify-content: $justify-content;
+    $align-items: $align-items;
+}
+
+@mixin tablet($max-width: 768px) {
+    $max-width: $max-width;
+}

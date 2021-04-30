@@ -4,6 +4,19 @@
     margin: 64px 230px 96px 230px;
 }
 
+@media (max-width: 768px) {
+    .registration {
+        margin: 40px 16px 96px 16px;
+    }
+}
+
+@media (max-width: 500px) {
+    .registration {
+        margin: 40px 8px 100px 8px;
+        flex-direction: column;
+    }
+}
+
 .registration-form {
     width: 360px;
 }
@@ -120,6 +133,12 @@
     align-items: center;
     justify-content: space-evenly;
     fill: $dark-pink;
+}
+
+@media (max-width: 500px) {
+    .registration-button {
+        margin: 0 0 40px 0;
+    }
 }
 
 .registration-button:hover {
