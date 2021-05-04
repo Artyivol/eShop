@@ -1,0 +1,262 @@
+.top__product {
+    width: 100%;
+    min-height: 148px;
+    background-color: #f8f3f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 500px) {
+    .top__product {
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.top__product-title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 29px;
+    color: $dark-pink;
+    margin: 0 0 0 15%;
+}
+
+@media (max-width: 768px) {
+    .top__product-title {
+        margin: 0 0 0 5%;
+    }
+}
+
+@media (max-width: 500px) {
+    .top__product-title {
+        margin: 24px 0 0 0;
+    }
+}
+
+.top__product-text {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #636363;
+    margin: 0 15% 0 0;
+}
+
+@media (max-width: 768px) {
+    .top__product-text {
+        margin: 0 5% 0 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .top__product-text {
+        margin: 32px 0 46px 0;
+    }
+}
+
+.top__product-text-pink {
+    color: $dark-pink;
+}
+
+.product__slide {
+    position: relative;
+}
+
+.advertising {
+    position: absolute;
+    min-height: 601px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #eaeaea;
+    bottom: -85%;
+    left: 10%;
+    text-align: center;
+    width: 80%;
+    background: #ffffff;
+}
+
+@media (max-width: 768px) {
+    .advertising {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+    }
+}
+
+.advertising-categoru {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: $dark-pink;
+    margin: 65px 0 27px 0;
+    position: relative;
+}
+
+.advertising-categoru::after {
+    position: absolute;
+    content: "";
+    width: 63px;
+    height: 3px;
+    background-color: $dark-pink;
+    bottom: -90%;
+    left: 29%;
+}
+
+.advertising-title {
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    color: #4d4d4d;
+    margin: 0 0 48px 0;
+}
+
+.advertising-text {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #5e5e5e;
+    width: 48%;
+}
+
+.advertising-price {
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: $dark-pink;
+    margin: 32px 0 130px 0;
+    position: relative;
+}
+
+.advertising-price::before {
+    position: absolute;
+    content: "";
+    width: 641px;
+    border: 1px solid #eaeaea;
+    bottom: -205%;
+    left: -293px;
+}
+
+@media (max-width: 500px) {
+    .advertising-price {
+        margin: 32px 0 82px 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .advertising-price::before {
+        width: 174px;
+        bottom: -108%;
+        left: -63px;
+    }
+}
+
+.advertising-list-item {
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 17px;
+    color: #6f6e6e;
+    text-transform: uppercase;
+    margin: 0px 5% 0 0;
+    position: relative;
+}
+
+@media (max-width: 500px) {
+    .advertising-list-item {
+        font-size: 10px;
+        line-height: 12px;
+    }
+}
+
+.advertising-list-item-svg {
+    fill: #6f6e6e;
+    margin: 0 0 0 10px;
+}
+
+.advertising-list-item-svg:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.advertising-list {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertising-button {
+    width: 211px;
+    height: 47px;
+    color: $dark-pink;
+    border: 1px solid $dark-pink;
+    margin: 63px 0 65px 0;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.advertising-button-svg {
+    fill: $dark-pink;
+    margin: 0 23px 0 0;
+}
+
+.advertising-button:hover {
+    background-color: $dark-pink;
+    color: white;
+}
+
+.advertising-button:hover .advertising-button-svg {
+    fill: white;
+}
+
+@media (max-width: 500px) {
+    .advertising-button {
+        margin: 63px 0 65px 0;
+    }
+}
+
+.products__list-block {
+    margin: 664px 0 128px 0;
+}
+
+@media (max-width: 768px) {
+    .products__list-block {
+        margin: 129px 0 129px 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .product-list {
+        padding: 0;
+    }
+}
+
+@media (max-width: 500px) {
+    .products__list-block {
+        margin: 64px 0 64px 0;
+    }
+}
+
+@media (max-width: 768px) {
+    .hidden {
+        display: none;
+    }
+}
+
+.footer__intersect-img {
+    padding: 0;
+}

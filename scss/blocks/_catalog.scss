@@ -1,0 +1,47 @@
+.catalog {
+    display: grid;
+    grid-template-columns: 400px 460px 460px;
+    grid-template-rows: 17px auto 43px;
+    justify-content: center;
+}
+
+.filter {
+    grid-column: 1/2;
+    grid-row: 1/2;
+}
+
+.filter__list {
+    grid-column: 2/3;
+    grid-row: 1/2;
+}
+
+.filter__list {
+    display: grid;
+    grid-template-columns: 132px 50px 60px;
+    grid-template-rows: 17px;
+}
+
+.filter__list-item-trend {
+    grid-column: 1/2;
+}
+
+.filter__list-item-size {
+    grid-column: 2/3;
+}
+
+.filter__list-item-price {
+    grid-column: 3/4;
+}
+
+.catalog-list {
+    grid-column: 1/4;
+    grid-row: 2/3;
+}
+
+.products-scroll {
+    grid-column: 2/3;
+    grid-row: 3/4;
+    width: 280px;
+    height: 43px;
+    background-color: black;
+}

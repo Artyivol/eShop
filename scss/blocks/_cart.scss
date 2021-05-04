@@ -31,7 +31,8 @@
 
 .cart {
     display: flex;
-    margin: 96px 0 128px 230px;
+    margin: 96px 230px 128px 230px;
+    justify-content: center;
 }
 
 @media (max-width: 768px) {
